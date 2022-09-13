@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Raleway:wght@300&display=swap');
+
+$link-color: rgb(161, 0, 0);
+$dark-gold: rgb(114, 80, 0);
+$main-color: #e8d3cb;
+$dark-red: rgb(12, 0, 0);
+$invalid: solid 2px rgb(167, 0, 0);
+
+$head-and-login-margin: 2.5vw;
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: $main-color;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./img/theatre.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100%;
+    color: $main-color;
+
+    > div:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        height: 160px;
+        font-size: 2.5rem;
+        font-family: 'Comfortaa', Helvetica, sans-serif;
+        margin-top: 120px;
+        overflow: hidden;
+        background: rgba(12, 0, 0, 0.8);
+
+        svg {
+            fill: $main-color;
+            height: 120px;
+            width: 120px;
+            min-height: 120px;
+            min-width: 120px;
+            margin: 0;
+        }
+    }
+
+    > div:nth-child(2) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .3rem;
+        height: 20px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 60vw;
+    padding-left: 3vw;
+    margin-right: 2.5vw;
+
+    .head {
+        font-size: 2rem;
+        margin-left: $head-and-login-margin;
+    }
+
+    > div:nth-last-of-type(2) {
+        margin-left: $head-and-login-margin;
+    }
+}
+
+a {
+    margin: 0;
+    font-size: 1rem;
+    height: 100%;
+    font-family: inherit;
+    text-decoration: none;
+    color: $link-color;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: clamp(450px, 50vw, 760px);
+    padding: 40px;
+    background-color: $dark-red;
+    border-radius: 30px;
+    border: solid 1px $dark-gold;
+
+    > div {
+        display: flex;
+        gap: 40px;
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+    }
+
+    input {
+        appearance: none;
+        width: clamp(192px, 22vw, 350px);
+        height: 25px;
+        background-color: rgb(75, 51, 0);
+        border: solid 1px $dark-gold;
+        border-radius: 5px;
+        color: white;
+        font-family: inherit;
+        padding-left: 5px;
+
+        &:focus {
+            outline: solid 2px rgb(169, 118, 0);
+        }
+
+        &:invalid:not(:placeholder-shown):not(:focus) {
+            outline: $invalid;
+        }
+    }
+}
+
+.button {
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  width: 130px;
+  height: 40px;
+  background-color: rgb(129, 77, 0);
+
+  &:hover, &:focus {
+    background-color: rgb(193, 116, 0);
+  }
+
+  &:disabled, &:disabled:hover, &:disabled:focus {
+    background-color: rgb(83, 73, 59);
+  }
+}
+
+.invalid {
+    outline: solid 2px rgb(167, 0, 0);
+}
+
+#error-message {
+    font-size: .8rem;
+    color: red;
+    height: 1rem;
+}
