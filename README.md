@@ -13,7 +13,9 @@ Sign-up form for cinema booking service.
 * Password match check and generated error message (JavaScript)
 
 ## Technologies
-* CSS (SASS preprocessor using .scss syntax)
+* CSS
+  * SASS preprocessor using .scss syntax
+  * Flexbox
 * HTML
 * Javascript
 
