@@ -9,7 +9,7 @@ Sign-up form for cinema booking service.
 ## Features
 * Client-side form validation (using input type and 'pattern' HTML attribute)
   * At least 2 letters for first and last name
-  * At least 1 capital letter, 1 number, 1 lower case letter and minimum 8 characters for password
+  * At least 1 capital letter, 1 lower case letter, 1 number and minimum 8 characters for password
 * Password match check and generated error message (JavaScript)
 
 ## Technologies
