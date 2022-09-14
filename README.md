@@ -3,10 +3,11 @@
 ![interface](./img/screenshoot.png)
 
 Sign-up form for cinema booking service.
+
 [Check live](https://mrzadzinski.github.io/sign-up-form/)
 
 ## Features
-* Client-side form validation (using input type and 'pattern' attribute)
+* Client-side form validation (using input type and 'pattern' HTML attribute)
   * At least 2 letters for first and last name
   * At least 1 capital letter, 1 number, 1 lower case letter and minimum 8 characters for password
 * Password match check and generated error message (JavaScript)
