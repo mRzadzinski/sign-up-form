@@ -1,9 +1,9 @@
 # Sign-up Form
 
 ![interface](./img/screenshoot.png)
-[Check live](https://mrzadzinski.github.io/sign-up-form/)
 
 Sign-up form for cinema booking service.
+[Check live](https://mrzadzinski.github.io/sign-up-form/)
 
 ## Features
 * Client-side form validation (using input type and 'pattern' attribute)
