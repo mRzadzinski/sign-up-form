@@ -1,7 +1,7 @@
 # Sign-up Form
 
 ![interface](./img/screenshoot.png)
-[Check live](live-link)
+[Check live](https://mrzadzinski.github.io/sign-up-form/)
 
 Sign-up form for cinema booking service.
 
