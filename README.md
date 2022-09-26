@@ -1,6 +1,6 @@
 # Sign-up Form
 
-![interface](./img/screenshoot.png)
+![interface](./img/screenshot.png)
 
 Sign-up form for cinema booking service.
 
