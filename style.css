@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  color: #ffcab5;
+  color: white;
   font-family: "Raleway", Helvetica, sans-serif;
   white-space: nowrap;
   overflow: hidden;
@@ -22,7 +22,7 @@ body {
   background-repeat: no-repeat;
   width: 40vw;
   height: 100%;
-  color: #ffcab5;
+  color: white;
 }
 .left > div:first-child {
   display: flex;
@@ -37,7 +37,7 @@ body {
   background: rgba(12, 0, 0, 0.8);
 }
 .left > div:first-child svg {
-  fill: #ffcab5;
+  fill: white;
   height: 120px;
   width: 120px;
   min-height: 120px;
