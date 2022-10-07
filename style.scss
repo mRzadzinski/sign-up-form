@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Raleway:wght@300&display=swap');
 
-$link-color: rgb(161, 0, 0);
-$dark-gold: rgb(114, 80, 0);
-$main-color: white;
+$link-color: rgb(196, 0, 0);
+$dark-gold: rgb(173, 173, 173);
+$main-color: rgb(255, 255, 255);
 $dark-red: rgb(12, 0, 0);
 $invalid: solid 2px rgb(167, 0, 0);
 
@@ -119,7 +119,7 @@ form {
         appearance: none;
         width: clamp(192px, 22vw, 350px);
         height: 25px;
-        background-color: rgb(75, 51, 0);
+        background-color: rgb(114, 114, 114);
         border: solid 1px $dark-gold;
         border-radius: 5px;
         color: white;
@@ -127,7 +127,7 @@ form {
         padding-left: 5px;
 
         &:focus {
-            outline: solid 2px rgb(169, 118, 0);
+            outline: solid 2px rgb(95, 95, 95);
         }
 
         &:invalid:not(:placeholder-shown):not(:focus) {
@@ -160,10 +160,10 @@ form {
 
   width: 130px;
   height: 40px;
-  background-color: rgb(129, 77, 0);
+  background-color: rgb(119, 0, 0);
 
   &:hover, &:focus {
-    background-color: rgb(193, 116, 0);
+    background-color: rgb(145, 0, 0);
   }
 
   &:disabled, &:disabled:hover, &:disabled:focus {
